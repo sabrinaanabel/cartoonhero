@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+header{
+	background-color: #C0392B;
+	text-align: center;
+	max-height: 650px;
+}
+
+h1, h2, h3 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+p, ol {
+	font-family: courier new, sans-serif; 
+}
+
+
+
+header h1{
+	color: white;
+	font-size: 152px;
+	padding:0px;
+
+
+}
+
+header img{
+	border-radius: 170px;
+    width: 300px;
+    border: 25px solid white;
+    padding: 0;
+}
+
+/*max width makes it easy to read*/
+main{
+	max-width: 800px; 
+	margin: 0 auto;
+	padding: 0 20px 10px 20px;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+footer{
+	text-align: center;
+	color: yellow;
+	background-color: purple;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
